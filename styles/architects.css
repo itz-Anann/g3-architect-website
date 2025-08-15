@@ -180,8 +180,25 @@ main>section{
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
-.sponsor-companies img{
-    filter: grayscale(100%);
+
+.sponsor-companies> img{
+   filter: grayscale(100%);
+}
+.footer-section{
+    width: 1440px;
+    height: 100px;
+  margin: 0 auto;
+  margin-top: 130px;
+   
+    background-color: #FFF4E7;
+    border: 2px solid none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    
+}
+.footer-p{
+    padding:40px 410px;
+    text-align: center;
 }
 /* responsive media query */
 @media screen and (max-width:576px) {
@@ -211,6 +228,11 @@ main>section{
     .our-features{
         margin-left: 20px;
     }
+    .footer-section{
+        
+        text-align: center;
+    }
+    
 
 }
 
